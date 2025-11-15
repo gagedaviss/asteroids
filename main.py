@@ -5,8 +5,8 @@ version = pygame.version.ver
 
 def main():
     print(f"Starting Asteroids with pygame version: {version}")
-    print(f"Screen width: {SCREEN_WIDTH}\n
-            Screen height: {SCREEN_HEIGHT}")
+    print(f"Screen width: {SCREEN_WIDTH}")
+    print(f"Screen height: {SCREEN_HEIGHT}")
 
 
 
