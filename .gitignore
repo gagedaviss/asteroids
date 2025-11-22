@@ -1,4 +1,7 @@
-#game_state.jsonl
+game_state.jsonl
+test.txt
+uv.lock
+.venv/
 test.txt
 pyproject.toml
 __pycache__/

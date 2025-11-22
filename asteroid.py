@@ -1,0 +1,11 @@
+import pygame
+from constants import *
+
+class Asteroid:
+    def __init__(self, x, y, radius):
+        self.x = x
+        self.y = y
+        self.radius = radius
+    
+    def draw(self, screen):
+        pygame.draw.circle(screen, "white", (self.x, self.y), self.radius, LINE_WIDTH)
